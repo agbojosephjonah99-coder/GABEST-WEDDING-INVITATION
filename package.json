@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vercel dev --listen 3000",
-    "build": "echo 'Static site, no build needed'"
+    "build": "echo 'Static build complete'",
+    "start": "node -e 'console.log(\"No server to start\")'"
   },
   "dependencies": {
     "airtable": "^0.12.2",
