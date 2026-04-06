@@ -1,0 +1,14 @@
+{
+  "name": "gabest-wedding-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev --listen 3000",
+    "build": "echo 'Static site, no build needed'"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^16.3.1",
+    "qrcode": "^1.5.3"
+  }
+}
